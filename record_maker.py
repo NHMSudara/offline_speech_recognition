@@ -8,7 +8,7 @@ CHANNELS = 1
 RATE = 44100
 CHUNK = 1024
 RECORD_SECONDS = 2
-WAVE_OUTPUT_FILENAME = "records/noice_1.wav"  # Define the filename for the output WAV file
+WAVE_OUTPUT_FILENAME = "records/noice_3.wav"  # Define the filename for the output WAV file
 
 # Initialize PyAudio
 audio = pyaudio.PyAudio()

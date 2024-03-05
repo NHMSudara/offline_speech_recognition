@@ -90,7 +90,7 @@ def predict_label(image_path):
     # Get the predicted class (index with highest probability)
     predicted_class = np.argmax(predictions[0])
     print(predictions[0][predicted_class])
-    if predicted_class != 2 and predictions[0][predicted_class]<0.33:
+    if predicted_class != 2 and predictions[0][predicted_class]<0.6:
         return 2
     return predicted_class
 
